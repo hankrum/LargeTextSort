@@ -8,7 +8,7 @@ timer.Start();
 Console.WriteLine($"Started: {DateTime.Now}");
 
 var sorter = new LargeFileSorter();
-sorter.SortFile("Test-15GB.txt", "SortedTest-15GB.txt");
+sorter.SortFile("Test-150GB.txt", "SortedTest-150GB.txt");
 // await sorter.SortFileAsync("Test-15GB.txt", "SortedTest-15GB.txt", new CancellationToken());
 
 timer.Stop();

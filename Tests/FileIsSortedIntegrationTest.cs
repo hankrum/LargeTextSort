@@ -14,7 +14,7 @@ namespace Tests
             var a = string.Compare("1230", "1234");
 
             var bufferSize = 1024 * 1024;
-            var filename = "SortedTest-15GB.txt";
+            var filename = "SortedTest-150GB.txt";
             byte[] buffer = new byte[bufferSize];
             using var reader = new StreamReader($"{Path.Combine(Constants.BasePath, filename)}");
 
